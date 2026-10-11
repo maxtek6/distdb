@@ -1,0 +1,14 @@
+{
+    "name": "distdb",
+    "version": "0.1.0",
+    "dependencies": [
+        "argparse",
+        "boost-endian",
+        "flatbuffers",
+        "flatcc",
+        "fmt",
+        "libevent",
+        "mio",
+        "xxhash"
+    ]
+}

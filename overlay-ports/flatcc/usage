@@ -1,0 +1,7 @@
+The flatcc package provides these CMake targets:
+
+  find_package(flatcc CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE flatcc::flatccrt)
+
+Use flatcc::flatcc to link the compiler library, or flatcc::flatcc_cli to
+use the flatcc command-line compiler as a custom command executable.
