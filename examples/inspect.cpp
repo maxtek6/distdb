@@ -17,7 +17,7 @@ static void print_resource(const distdb_archive *archive, const char *path)
     else
     {
         std::cerr << "failed to find resource " << path << std::endl;
-    }
+    } 
 }
 
 static bool print_archive(const char *filepath)

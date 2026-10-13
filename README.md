@@ -18,7 +18,11 @@ agnostic.
 ### Building
 
 An archive can be built using the command-line utility `distdbc`. It 
-requires an input directory and an output filename.
+requires an input directory and an output filename:
+
+```bash
+distdbc /path/to/content -o archive.dist
+```
 
 ### Reading
 

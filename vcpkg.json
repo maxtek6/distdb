@@ -3,12 +3,13 @@
     "version": "0.1.0",
     "dependencies": [
         "argparse",
-        "boost-endian",
+        "boost-beast",
         "flatbuffers",
         "flatcc",
         "fmt",
         "libevent",
         "mio",
+        "spdlog",
         "xxhash"
     ]
 }
