@@ -3,7 +3,10 @@
     "version": "0.1.0",
     "dependencies": [
         "argparse",
+        "argtable3",
         "boost-beast",
+        "boost-thread",
+        "boost-system",
         "flatbuffers",
         "flatcc",
         "fmt",
