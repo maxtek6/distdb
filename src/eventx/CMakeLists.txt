@@ -1,8 +1,0 @@
-if(WIN32)
-    set(EVENTX_PLATFORM_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/group_win32.c)
-else()
-    set(EVENTX_PLATFORM_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/group_posix.c)
-endif()
-add_library(eventx STATIC ${EVENTX_PLATFORM_SOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/http.c)
-target_include_directories(eventx PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-target_link_libraries(eventx PUBLIC libevent::core libevent::extra libevent::pthreads)
