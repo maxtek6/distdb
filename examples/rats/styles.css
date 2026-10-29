@@ -1,0 +1,174 @@
+.thing h1 {
+    text-align: center;
+    color: pink;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: black;
+}
+
+.rats {
+    color: pink;
+    text-align: center;
+}
+
+.more_rats h2 {
+    color:rebeccapurple;
+    padding: 100px 0px 0px 50px;
+    margin: 0px;
+    border: 0px;
+}
+
+.side_banner {
+    float: right;
+    height: 914px;
+    width: 200px;
+    background: rgba(244,57,16,0.2);
+    padding: 25px 0px 0px 0px;
+    margin: -200px 0px 0px 0px;
+    clear: left;
+}
+
+.side_banner p {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: Verdana;
+    font-size: small;
+    font-weight: bold;
+}
+
+.side_banner hr {
+    width: 150px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(211, 167, 167, 0), rgba(218, 180, 180, 0.75), rgba(189, 162, 162, 0));
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.banner_images img {
+    height: 180px;
+    width: 180px;
+    margin: 8px 8px 8px 8px;
+    padding-left: 2px;
+}
+
+.rat_monologue {
+    color:chartreuse;
+    text-align: center;
+    border: 2px dashed paleturquoise;
+    padding: 0px 10px 0px 10px;
+    margin: 250px 600px 100px 450px;
+    position: absolute;
+}
+
+.menace {
+    color:maroon;
+    position: absolute;
+    transform: rotate(-35deg);
+    transform-origin: 0% 0%;
+    margin: 30px 200px 10px 230px;
+    z-index: 1;
+    font-family: Verdana;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.enemy img {
+    position: absolute;
+    margin: -30px 200px 10px 350px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 5px ridge orange;
+    text-align: center;
+}
+
+.enemy p {
+    color: white;
+    position: absolute;
+    padding: 0px;
+    margin: 90px 0px 0px 570px;
+    font-size: xx-large;
+}
+
+.arrow img {
+    position: absolute;
+    padding: 0px;
+    margin: -18px 200px 10px 570px;
+    height: 100px; 
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.two_rats {
+    color:crimson;
+    border: 10px inset #872934;
+    padding: 120px;
+    position: fixed;
+    margin: -80px 0px 0px 1100px;
+    background-image: url(images/rat.png); 
+}
+
+.tr_text {
+    color: crimson;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 2px;
+    left: 15px;
+}
+
+.more_rats h3 {
+    color:darkgreen;
+    position: absolute;
+    padding: 0px 0px 0px 65px;
+    margin: 0px;
+    border: 0px;
+    font-style: italic;
+}
+
+.falsehood img {
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid red;
+    margin: 150px 0px 0px 100px;
+}
+
+.falsehood hr {
+    content: "";
+    position: absolute;
+    border-top: 10px solid red;
+    border-radius: 25%;
+    width: 204px;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+    margin: 180px 0px 0px 132px;
+}
+
+.falsehood p {
+    color: aqua;
+    font-size: 36px;
+    font: bold;
+    font-family: Verdana;
+    padding: 0px;
+    margin: 146px 0px 0px 60px;
+    position: absolute;
+}
+
+.fh2 {
+    color: aqua;
+    font-size: 36px;
+    font: bold;
+    font-family: Verdana;
+    padding: 0px;
+    margin: -70px 0px 0px 65px;
+}

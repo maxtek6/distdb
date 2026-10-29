@@ -1,0 +1,13 @@
+{
+    "name": "distdb",
+    "version": "0.1.0",
+    "dependencies": [
+        "argparse",
+        "flatbuffers",
+        "flatcc",
+        "fmt",
+        "libevent",
+        "mio",
+        "xxhash"
+    ]
+}
